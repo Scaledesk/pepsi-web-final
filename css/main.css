@@ -394,6 +394,24 @@ a{
 }
 
 
+.bg-side-menu{
+    background: #48485d;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    -webkit-transition: background 0.5s; /* Safari */
+    transition: background 0.5s;
+    
+}
+
+.bg-side-menu:hover{
+    background: #222;
+}
+
+.bg-side-menu > a {
+    font-size: 17px !important;
+    color: #fff !important;
+}
+
 
 /*.owl-item{*/
     /*margin: 10px;*/
