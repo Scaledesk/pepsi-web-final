@@ -1,0 +1,402 @@
+/* owl carousel css */
+#owl-demo .item{
+    margin: 3px;
+    padding: 3px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 200px;
+    height: 165px;
+
+}
+
+.owl-heading {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.54);
+    padding: 25% 33%;
+}
+
+/*img .owl-heading:before{*/
+    /*background: rgba(0, 0, 0, 0.54);*/
+/*}*/
+
+/*#owl-demo .item img::before{*/
+
+    /*background: rgba(0, 0, 0, 0.54);*/
+
+/*}*/
+
+/* end owl carousel */
+
+body{
+    background:#fafafa;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    color: #545252;
+    line-height: 2em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #484848;
+}
+a{
+    text-decoration: none !important;
+}
+.p-title{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.6rem;
+    word-spacing: 1px;
+    color: #484848;
+}
+.p-text{
+    font-size: 16px;
+    color: #6b6969;
+    word-spacing: 5px;
+    text-align: left;
+    line-height: 1.7em;
+}
+
+.img-bg{
+    background: url("../img/building.jpeg");
+    height: 250px;
+/*    width: 430px;*/
+    width: 100%;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.icon-bg{
+    height: 100px;
+    width: 100px;
+}
+
+/*custom css for page2*/
+.p-icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.page-header {
+    font-size: 18px;
+    margin: 0 0 0 0 !important;
+}
+.card .card-image img {
+    position: relative;
+    left:8px;
+    top:18px;
+}
+.card .card-content p {
+    padding: 8px 0 0 0;
+}
+@media only screen and (min-width: 601px){
+    .row .col.m7 {
+        width: 100%;
+    }
+}
+/*end custom css pf page2*/
+
+/*custom page for page3*/
+.custom-img{
+    height: 209px !important;
+    width: 401px !important;
+}
+@media only screen and (min-width: 601px) {
+    .row  .custom-card {
+        width: 42% !important;
+    }
+    .custom-wrapper{
+        margin-left: 0;
+    }
+}
+
+/*end custom page3*/
+
+
+
+/*//////////////////////////////////////////////////////////////////////////
+
+   CSS Helper Classes
+
+/////////////////////////////////////////////////////////////////////////*/
+
+/*////Margins//////*/
+
+.m-0{
+    margin: 0!important;
+}
+
+.m-5{
+    margin: 5px!important;
+}
+
+.m-t-0{
+    margin-top: 0!important;
+}
+
+.m-b-0{
+    margin-bottom: 0!important;
+}
+
+.m-10{
+    margin: 10px!important;
+}
+
+.m-t-5{
+    margin-top: 5px!important;
+}
+
+.m-t-10{
+    margin-top: 10px!important;
+}
+
+.m-t-15{
+    margin-top: 15px!important;
+}
+
+.m-t-20{
+    margin-top: 20px!important;
+}
+
+
+.m-b-5{
+    margin-bottom: 5px!important;
+}
+
+.m-b-10{
+    margin-bottom: 10px!important;
+}
+
+.m-b-20{
+    margin-bottom: 20px!important;
+}
+
+
+.m-b-40{
+    margin-bottom: 40px!important;
+}
+
+.m-b-60{
+    margin-bottom: 60px!important;
+}
+
+.m-t-40{
+    margin-top: 40px!important;
+}
+
+.m-t-60{
+    margin-top: 60px!important;
+}
+
+.m-r-20{
+    margin-right: 20px!important;
+}
+
+
+.m-r-40{
+    margin-right: 40px!important;
+}
+
+.m-30{
+    margin: 30px!important;
+}
+
+.m-0-a{
+    margin: 0 auto !important;
+}
+
+/*////Ends here///*/
+
+
+
+
+
+/*///Padding//*/
+
+.p-0{
+    padding: 0!important;
+}
+
+.p-5{
+    padding: 5px!important;
+}
+
+
+.p-10{
+    padding: 10px!important;
+}
+
+.p-15{
+    padding: 15px!important;
+}
+
+.p-20{
+    padding: 20px!important;
+}
+
+.p-l-10{
+    padding-left: 10px !important;
+}
+
+.p-l-20{
+    padding-left: 20px !important;
+}
+
+.p-t-40{
+    padding-top: 40px!important;
+}
+
+.p-t-10{
+    padding-top: 10px !important;
+}
+
+.p-b-10{
+    padding-bottom: 10px !important;
+}
+
+.p-b-20{
+    padding-bottom: 20px!important;
+}
+
+.p-b-40{
+    padding-bottom: 40px!important;
+}
+
+.p-b-60{
+    padding-bottom: 60px!important;
+}
+
+.p-tb-100{
+    padding-bottom: 100px !important;
+    padding-top: 100px !important;
+    height: 70vh;
+}
+
+/*///ends here////*/
+
+
+
+
+/*////Fonts////*/
+
+
+.f-12{
+    font-size: 12px!important;
+}
+
+
+.f-16{
+    font-size: 16px!important;
+}
+
+.f-17{
+    font-size: 17px!important;
+}
+
+.f-18{
+    font-size: 18px!important;
+}
+
+.f-20{
+    font-size: 20px!important;
+}
+
+.f-22{
+    font-size: 22px!important;
+}
+
+
+.f-24{
+    font-size: 24px!important;
+}
+
+.f-29{
+    font-size: 29px!important;
+}
+
+
+.w-100{
+    font-weight: 100!important;
+}
+
+
+.w-500{
+    font-weight: 500!important;
+}
+
+.w-800{
+    font-weight: 800!important;
+}
+
+
+.f-8{
+    font-size: 5em!important;
+}
+
+
+
+/*///Borders////*/
+
+.border{
+    border: 1px solid #eee;
+}
+
+
+.border-top{
+    border-top: 1px solid #eee;
+}
+
+
+.border-right{
+    border-right: 1px solid #eee;
+}
+
+
+.border-bottom{
+    border-bottom: 1px solid #eee;
+}
+
+.border-left{
+    border-left: 1px solid #eee;
+}
+
+
+.c-white{
+    color: #fff!important;
+}
+
+.c-black{
+    color: #000!important;
+}
+
+/* sanchit */
+.cursor-p{
+    cursor: pointer !important;
+}
+
+.navbar-fixed{
+    height: auto !important;
+}
+
+
+
+
+.container{
+    background: url('../img/123.png') center no-repeat;
+    height: 100%;
+    /*width: 100%;*/
+    background-size: cover;
+}
+
+
+
+/*.owl-item{*/
+    /*margin: 10px;*/
+/*}*/
+
+
