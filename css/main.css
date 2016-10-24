@@ -412,6 +412,10 @@ a{
     color: #fff !important;
 }
 
+.not-circle{
+    background: rgba(250,250,250,0.70);
+    margin-bottom: 55px;
+}
 
 /*.owl-item{*/
     /*margin: 10px;*/
