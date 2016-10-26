@@ -418,6 +418,10 @@ a{
     visibility: hidden;
 }
 
+.side-nav .userView{
+    padding-bottom: 35px;
+}
+
 /*.owl-item{*/
     /*margin: 10px;*/
 /*}*/
