@@ -93,6 +93,7 @@ a{
 }
 .card .card-content p {
     padding: 8px 0 0 0;
+    line-height: 1.6em;
 }
 @media only screen and (min-width: 601px){
     .row .col.m7 {
@@ -427,3 +428,15 @@ a{
 /*}*/
 
 
+
+
+.card-stacked p{
+    text-transform: uppercase;
+
+}
+
+
+.card.horizontal {
+    height: 105px;
+    overflow: hidden;
+}
